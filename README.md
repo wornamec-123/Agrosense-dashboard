@@ -1,36 +1,55 @@
 # 🌱 AgroSense Dashboard
 
-A React dashboard displaying real-time sensor readings for smart agriculture.
+A modern React dashboard for monitoring smart agriculture sensor data in real time.
 
-## Features
-- Three `SensorCard` components: Soil Moisture, Temperature, Humidity
-- Hardcoded sensor values with unit labels (`%`, `°C`, `%`)
-- Cards displayed in a **flexbox row**
-- Animated progress bar per card
-- Dark agricultural theme
+## 🚀 Features
+- Reusable `SensorCard` components
+- Soil Moisture monitoring
+- Temperature tracking
+- Humidity monitoring
+- Animated progress bars
+- Responsive flexbox layout
+- Dark agricultural-themed UI
 
-## Project Structure
-```
+## 📂 Project Structure
+```bash
 agrosense-dashboard/
 ├── index.html
 ├── package.json
 ├── vite.config.js
 └── src/
-    ├── main.jsx       # App entry point
-    ├── App.jsx        # Root component — renders 3 SensorCards in a row
-    ├── SensorCard.jsx # Reusable sensor card component
-    └── index.css      # Global styles & flexbox layout
+    ├── main.jsx
+    ├── App.jsx
+    ├── SensorCard.jsx
+    └── index.css
 ```
 
-## How to Run
+## 🛠️ Technologies Used
+- React 18
+- Vite
+- CSS Flexbox
+
+## ▶️ How to Run
 ```bash
 npm install
 npm run dev
 ```
 
-Then open http://localhost:5173
+Open:
+```bash
+http://localhost:5173
+```
 
-## Built With
-- React 18
-- Vite
-- CSS Flexbox
+## 🌟 Future Improvements
+- Real-time IoT sensor integration
+- Weather API support
+- Data analytics charts
+- User authentication
+- Database storage
+- Mobile responsiveness
+
+## 👨‍💻 Author
+Celestine Worname
+
+## 🔗 GitHub Repository
+https://github.com/wornamec-123/Agrosense-dashboard
